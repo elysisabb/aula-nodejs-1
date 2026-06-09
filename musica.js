@@ -1,9 +1,8 @@
-class Musica{
+module.exports = class Musica{
 
-    constructor(){
-        this.nome;
-        this.artista;
-        this.capa;
+    constructor(nome, artista){
+        this.nome = nome;
+        this.artista = artista;
         this.partes = [];
     }
 
