@@ -1,4 +1,4 @@
-class Parte{
+module.export = class Parte{
     constructor(letra, tempoEspera, tag){
         this.letra = letra;
         this.tempoEspera = tempoEspera;
